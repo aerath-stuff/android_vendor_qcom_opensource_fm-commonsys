@@ -64,7 +64,7 @@ OnFrequencyChangedListener {
                                                             int frequency,
                                  OnFrequencySetListener callback) {
         //this(context, android.R.style.Theme_Dialog, fmConfig, frequency, callback);
-       this(context, com.android.internal.R.style.Theme_Dialog_Alert, fmConfig, frequency, callback);
+       this(context, com.android.internal.R.style.Theme_Material_Dialog_Alert, fmConfig, frequency, callback);
     }
 
     /**
