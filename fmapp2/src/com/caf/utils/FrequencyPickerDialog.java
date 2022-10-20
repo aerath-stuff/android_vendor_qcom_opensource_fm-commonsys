@@ -59,22 +59,8 @@ OnFrequencyChangedListener {
     }
     /**
      */
-    public FrequencyPickerDialog(Context context,
-                                                            FmConfig fmConfig,
-                                                            int frequency,
-                                 OnFrequencySetListener callback) {
-        //this(context, android.R.style.Theme_Dialog, fmConfig, frequency, callback);
-       this(context, com.android.internal.R.style.Theme_Material_Dialog_Alert, fmConfig, frequency, callback);
-    }
-
-    /**
-     */
-    public FrequencyPickerDialog(Context context,
-            int theme,
-            FmConfig fmConfig,
-                        int frequency,
-                        OnFrequencySetListener callback) {
-        super(context, theme);
+    public FrequencyPickerDialog(Context context, FmConfig fmConfig, int frequency, OnFrequencySetListener callback) {
+        super(context);
         mMinFrequency = fmConfig.getLowerLimit();
         mMaxFrequency = fmConfig.getUpperLimit();
         mChannelSpacing = 200;
