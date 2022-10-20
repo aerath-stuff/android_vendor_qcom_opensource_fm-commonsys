@@ -87,7 +87,7 @@ OnFrequencyChangedListener {
 
         setButton(context.getString(R.string.set), this);
         setButton2(context.getString(android.R.string.cancel),  (OnClickListener) null);
-        setIcon(R.drawable.alert_dialog_icon);
+        setIcon(R.drawable.stat_notify_fm);
 
         LayoutInflater inflater =
                 (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
